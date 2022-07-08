@@ -24,4 +24,4 @@ text_file.close()
 print("List of words in the file with number of times each appears.")
 word_list = sorted(words_dic)
 for word in word_list:
-    print(words_dic[word], word)
+    print(word, words_dic[word])
